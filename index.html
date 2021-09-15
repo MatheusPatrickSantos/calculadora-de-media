@@ -123,11 +123,15 @@
       <path d="M177.107 253.222L177.107 246.922L170.807 246.922L170.807 253.222L177.107 253.222Z" fill="#511C64"/>
       <path d="M190.2 236.9H192.4C194.9 236.9 197 239 197 241.5V248.4" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    <input id="notaPrimeiroSemestre" type="number" min="1" max="10">
-    <input id="notaSegundoSemestre" type="number" min="1" max="10">
-    <input id="notaTerceiroSemestre" type="number" min="1" max="10">
-    <input id="notaQuartoSemestre" type="number" min="1" max="10">
-    <button id="botaoCalculaMedia" type="submit" onclick="calculaMedia">Calcular Média</button>
+    <input id="notaPrimeiroSemestre" placeholder="Primeiro Semestre" type="number" min="1" max="10">
+    <input id="notaSegundoSemestre" placeholder="Segundo Semestre" type="number" min="1" max="10">
+    <input id="notaTerceiroSemestre" placeholder="Terceiro Semestre" type="number" min="1" max="10">
+    <input id="notaQuartoSemestre" placeholder="Quarto Semestre" type="number" min="1" max="10">
+    <button id="botaoCalculaMedia" type="submit" onclick="calculaMedia()">Calcular Média</button>
+  <h2 id="retornoJavaScript"></h2>
+  <h2 id="aprovado"></h2>
+  <h2 id="reprovado"></h2>
+  <h2 id="parabens"></h2>
   </body>
 </html>
 <!-- partial -->
